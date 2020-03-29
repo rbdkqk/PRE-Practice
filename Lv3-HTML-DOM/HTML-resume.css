@@ -1,0 +1,33 @@
+#title {
+    width: 100%; height: 50px; border: 1px solid green; 
+
+    
+
+    position : relative;
+    /* relative : 기본값인 static 자리로부터, 얼마나 움직일 것인가 */
+    text-align: center;
+   
+}
+
+#applyingJob {
+    width: 100%; border: 1px solid green; 
+
+
+    position : relative;
+    text-align: right;
+    background-color: white;
+    
+}
+
+
+
+#writtenDate { 
+    width: 100%; border: 1px solid green; 
+
+    
+    position : relative;
+    text-align: right;
+    background-color: white;
+
+}
+

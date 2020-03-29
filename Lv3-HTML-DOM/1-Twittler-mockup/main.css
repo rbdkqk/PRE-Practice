@@ -1,0 +1,82 @@
+/* 2월 15일 오후 4시 00분에 완성함 (약 3시간 걸림) */
+
+
+#title {                                /* 가장 위에 있는 제목 부분 */
+    width: 100%; height: 50px; 
+    border: 3px solid blue; background-color: skyblue;
+    box-sizing: border-box;                 /* border 를 박스 안으로 넣는 방법 */
+    font-size: 30px; text-align: center; color: white;
+     /* position 속성이 없는 상위의 것 기준으로 위치를 설정함 */
+}
+
+
+
+#tweetBox {                             /* 두번째의 댓글 입력 부분 */
+    width: 100%; height: 200px;
+    background-color: skyblue;
+    position: relative; top: 20px; /* 상위의 absolute 기준으로, static 지점부터 위치를 변경함 */
+}
+
+    #UserName {
+        /* margin: 0px; 이걸 주면 마진 상쇄 현상이 있는 것 같은데, 답을 모르겠다 */
+        position: absolute; top: 10px; left: 10px;
+    }
+
+        #inputBox-UserName {
+            width: 150px;
+        }
+
+    #Comment {
+        position: relative; top: 60px; left: 10px;
+    }
+
+        #inputBox-Comment {
+            width: 300px; height: 50px;
+        }
+
+    #tweetBotton {
+        position: relative; top: 70px; left: 10px;
+        width: 80px; height: 30px;
+    }
+
+
+
+#replyBox {                             /* 세번째의 댓글 결과 부분 */
+    margin-top: 20px;
+    width: 100%; height: 500px;
+    border: 3px; background-color: skyblue;
+    position: relative; top: 20px; /* 상위의 absolute 기준으로, static 지점부터 위치를 변경함 */
+}
+
+    #checkNewTweet {
+        background-color: blue;
+        width: 100%; height: 50px;
+    }
+
+        #refreshBotton {
+            margin: 10px;
+            width: 150px; height: 30px;
+        }
+    
+    #CommentArray {
+        border: 0px;
+    }
+
+        .reply {
+            padding: 10px;
+            
+        }
+
+            .tweetlerName {
+                float: left;
+            }
+
+            .tweetlerDate {
+                float: right;
+            }
+
+            .tweetlerComment {
+                clear: both;
+                padding-bottom: 10px;
+                border-bottom: 3px solid gray;
+            }

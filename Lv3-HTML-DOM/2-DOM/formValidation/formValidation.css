@@ -1,0 +1,36 @@
+#ID-section {
+    border: 1px solid black;
+    position: relative; margin-top: 20px; padding: 10px;
+}
+    #ID {
+        width: 200px;
+    }
+
+
+#password-section {
+    border: 1px solid black;
+    position: relative; margin-top: 20px; padding: 10px;
+}
+    #password {
+        width: 250px;
+    }
+    #passwordCheck {
+        width: 250px;
+    }
+
+#email-section {
+    border: 1px solid black;
+    position: relative; margin-top: 20px; padding: 10px;
+}
+    #email {
+        width: 250px;
+    }
+    #emailCheck {
+        width: 250px;
+    }
+
+#validation-section {
+    border: 1px solid black;
+    position: relative; margin-top: 20px; padding: 10px;
+}
+
