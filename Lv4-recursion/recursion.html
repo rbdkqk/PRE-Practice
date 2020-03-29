@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="a"> a1 <br>
+        <div class="a" > a2 <br>
+            <div class="b" > a3 <br>
+                <div class="a" > a4 <br>
+                    <div class="a" > a5 <br>
+                    </div>
+                </div>                
+            </div>        
+        </div>
+    </div>
+
+    
+        <div id="test1"></div>
+        <div id="test2"></div>
+    
+    <br>
+    <div  > b1 <br></div>
+    <div class="b" > b2 <br></div>
+    <div  > b3 <br></div>
+    <div class="b" > b4 <br></div>
+    <div  > b5 <br></div>
+
+    <script>
+        document.getElementById('test1').className = 'a';
+        document.getElementById('test1').innerText = '1';
+        document.getElementById('test2').classList.add('c');
+        document.getElementById('test2').classList.add('a');
+        document.getElementById('test2').classList.add('b');
+        document.getElementById('test2').innerText = '2';
+    </script>
+
+</body>
+</html>
